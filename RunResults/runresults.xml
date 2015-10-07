@@ -1,0 +1,1594 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2015-10-06 21:11:51.290</RunStartTime>
+        <Timezone/>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description> </Description>
+            <StartTime>2015-10-06 21:11:51.290</StartTime>
+            <Duration>13</Duration>
+            <Result>Passed</Result>
+            <Links/>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo/>
+                <HostName/>
+                <NumberOfCores/>
+                <CpuInfo/>
+                <TotalMemory/>
+                <Locale/>
+                <Timezone/>
+                <User/>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name>com.aob.leanft</Name>
+                <Description/>
+                <StartTime>2015-10-06 21:11:51.299</StartTime>
+                <Duration>13</Duration>
+                <Result>Passed</Result>
+                <Links/>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name>com.aob.leanft.LeanFtTest</Name>
+                    <Description/>
+                    <StartTime>2015-10-06 21:11:51.300</StartTime>
+                    <Duration>13</Duration>
+                    <Result>Passed</Result>
+                    <Links/>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>ALaunchApplication</Name>
+                        <Description/>
+                        <StartTime>2015-10-06 21:11:51.302</StartTime>
+                        <Duration>4</Duration>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>Browser.launch</Name>
+                            <Description>Browser type: Chrome</Description>
+                            <StartTime>2015-10-06 21:11:51.325</StartTime>
+                            <Duration>0</Duration>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[Chrome]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>launch</Operation>
+                                        <OperationData><![CDATA[Browser type: Chrome]]></OperationData>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IconKey>Browser</IconKey>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Browser.launch</Name>
+                            <Description>Browser type: Chrome</Description>
+                            <StartTime>2015-10-06 21:11:51.325</StartTime>
+                            <Duration>4</Duration>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[Chrome]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>launch</Operation>
+                                        <OperationData><![CDATA[Browser type: Chrome]]></OperationData>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IconKey>Browser</IconKey>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Web.Browser.Browser</Name>
+                            <Description/>
+                            <StartTime>2015-10-06 21:11:54.460</StartTime>
+                            <Duration>1</Duration>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[Browser]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IconKey>Browser</IconKey>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Step">
+                            <Data>
+                                <Name>Browser.navigate</Name>
+                                <Description>Arguments: &amp;quot;http://172.16.239.243:47001/advantage/&amp;quot;</Description>
+                                <StartTime>2015-10-06 21:11:54.058</StartTime>
+                                <Duration>1</Duration>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[Browser]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation>navigate</Operation>
+                                            <OperationData><![CDATA[Arguments: "http://172.16.239.243:47001/advantage/"]]></OperationData>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IconKey>Browser</IconKey>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                        </ReportNode>
+                    </ReportNode>
+                    <ReportNode type="CustomStep">
+                        <Data>
+                            <Name>Open the browser with valid URL</Name>
+                            <Description>The specified browser type should be launched with the provided URL</Description>
+                            <StartTime>2015-10-06 21:11:54.474</StartTime>
+                            <Duration>0</Duration>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Extension>
+                                <Any>
+                                    <IconKey>CustomStep</IconKey>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>BLogin</Name>
+                        <Description/>
+                        <StartTime>2015-10-06 21:11:54.477</StartTime>
+                        <Duration>3</Duration>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Web.Browser.Advantage Online Banking</Name>
+                            <Description/>
+                            <StartTime>2015-10-06 21:11:56.150</StartTime>
+                            <Duration>2</Duration>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[Advantage Online Banking]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IconKey>Browser</IconKey>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Web.Page.Advantage Online Banking</Name>
+                                <Description/>
+                                <StartTime>2015-10-06 21:11:56.150</StartTime>
+                                <Duration>2</Duration>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Page</Type>
+                                                    <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IconKey>Page</IconKey>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.EditField.j_username</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:11:56.150</StartTime>
+                                    <Duration>1</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.EditField</Type>
+                                                        <Name><![CDATA[j_username]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>EditField</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>j_username.setValue</Name>
+                                        <Description>Arguments: &amp;quot;jojo&amp;quot;</Description>
+                                        <StartTime>2015-10-06 21:11:54.487</StartTime>
+                                        <Duration>2</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.EditField</Type>
+                                                            <Name><![CDATA[j_username]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>setValue</Operation>
+                                                    <OperationData><![CDATA[Arguments: "jojo"]]></OperationData>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[Type]]></Name>
+                                                            <Value><![CDATA[text]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[INPUT]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Name]]></Name>
+                                                            <Value><![CDATA[j_username]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>EditField</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.EditField.j_password</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:11:56.244</StartTime>
+                                    <Duration>1</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.EditField</Type>
+                                                        <Name><![CDATA[j_password]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>EditField</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>j_password.setValue</Name>
+                                        <Description>Arguments: &amp;quot;passw0RD&amp;quot;</Description>
+                                        <StartTime>2015-10-06 21:11:56.151</StartTime>
+                                        <Duration>1</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.EditField</Type>
+                                                            <Name><![CDATA[j_password]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>setValue</Operation>
+                                                    <OperationData><![CDATA[Arguments: "passw0RD"]]></OperationData>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[XPath]]></Name>
+                                                            <Value><![CDATA[//INPUT[@id="password"]]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Type]]></Name>
+                                                            <Value><![CDATA[password]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[INPUT]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Name]]></Name>
+                                                            <Value><![CDATA[j_password]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>EditField</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.Button.Login</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:11:56.360</StartTime>
+                                    <Duration>2</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Button</Type>
+                                                        <Name><![CDATA[Login]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>Button</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>Login.click</Name>
+                                        <Description/>
+                                        <StartTime>2015-10-06 21:11:56.247</StartTime>
+                                        <Duration>1</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Button</Type>
+                                                            <Name><![CDATA[Login]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>click</Operation>
+                                                    <OperationData/>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[INPUT]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ButtonType]]></Name>
+                                                            <Value><![CDATA[submit]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Name]]></Name>
+                                                            <Value><![CDATA[Login]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>Button</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                    <ReportNode type="CustomStep">
+                        <Data>
+                            <Name>Succesful Login</Name>
+                            <Description>Verify that the user was able to log in using his credentials</Description>
+                            <StartTime>2015-10-06 21:11:57.459</StartTime>
+                            <Duration>0</Duration>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Extension>
+                                <Any>
+                                    <IconKey>CustomStep</IconKey>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>CreateAccount</Name>
+                        <Description/>
+                        <StartTime>2015-10-06 21:11:57.460</StartTime>
+                        <Duration>4</Duration>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Web.Browser.Advantage Online Banking</Name>
+                            <Description/>
+                            <StartTime>2015-10-06 21:11:57.565</StartTime>
+                            <Duration>4</Duration>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[Advantage Online Banking]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IconKey>Browser</IconKey>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Web.Page.Advantage Online Banking</Name>
+                                <Description/>
+                                <StartTime>2015-10-06 21:11:57.565</StartTime>
+                                <Duration>4</Duration>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Page</Type>
+                                                    <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IconKey>Page</IconKey>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.Link.Create Account</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:11:57.565</StartTime>
+                                    <Duration>2</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Link</Type>
+                                                        <Name><![CDATA[Create Account]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>Link</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>Create Account.click</Name>
+                                        <Description/>
+                                        <StartTime>2015-10-06 21:11:57.462</StartTime>
+                                        <Duration>1</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Link</Type>
+                                                            <Name><![CDATA[Create Account]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>click</Operation>
+                                                    <OperationData/>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[A]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[InnerText]]></Name>
+                                                            <Value><![CDATA[Create Account ]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>Link</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.EditField.lastName</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:11:58.687</StartTime>
+                                    <Duration>1</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.EditField</Type>
+                                                        <Name><![CDATA[lastName]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>EditField</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>lastName.setValue</Name>
+                                        <Description>Arguments: &amp;quot;John&amp;quot;</Description>
+                                        <StartTime>2015-10-06 21:11:57.566</StartTime>
+                                        <Duration>2</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.EditField</Type>
+                                                            <Name><![CDATA[lastName]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>setValue</Operation>
+                                                    <OperationData><![CDATA[Arguments: "John"]]></OperationData>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[Type]]></Name>
+                                                            <Value><![CDATA[text]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[INPUT]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Name]]></Name>
+                                                            <Value><![CDATA[lastName]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>EditField</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.EditField.firstName</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:11:58.795</StartTime>
+                                    <Duration>1</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.EditField</Type>
+                                                        <Name><![CDATA[firstName]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>EditField</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>firstName.setValue</Name>
+                                        <Description>Arguments: &amp;quot;Alex&amp;quot;</Description>
+                                        <StartTime>2015-10-06 21:11:58.688</StartTime>
+                                        <Duration>1</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.EditField</Type>
+                                                            <Name><![CDATA[firstName]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>setValue</Operation>
+                                                    <OperationData><![CDATA[Arguments: "Alex"]]></OperationData>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[Type]]></Name>
+                                                            <Value><![CDATA[text]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[INPUT]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Name]]></Name>
+                                                            <Value><![CDATA[firstName]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>EditField</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.EditField.address</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:11:58.913</StartTime>
+                                    <Duration>1</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.EditField</Type>
+                                                        <Name><![CDATA[address]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>EditField</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>address.setValue</Name>
+                                        <Description>Arguments: &amp;quot;20 rue de la glaci&amp;#232;re&amp;quot;</Description>
+                                        <StartTime>2015-10-06 21:11:58.796</StartTime>
+                                        <Duration>1</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.EditField</Type>
+                                                            <Name><![CDATA[address]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>setValue</Operation>
+                                                    <OperationData><![CDATA[Arguments: "20 rue de la glacière"]]></OperationData>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[Type]]></Name>
+                                                            <Value><![CDATA[text]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[INPUT]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Name]]></Name>
+                                                            <Value><![CDATA[address]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>EditField</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.Button.Continue</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:11:59.020</StartTime>
+                                    <Duration>2</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Button</Type>
+                                                        <Name><![CDATA[Continue]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>Button</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>Continue.click</Name>
+                                        <Description/>
+                                        <StartTime>2015-10-06 21:11:58.914</StartTime>
+                                        <Duration>1</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Button</Type>
+                                                            <Name><![CDATA[Continue]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>click</Operation>
+                                                    <OperationData/>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[INPUT]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ButtonType]]></Name>
+                                                            <Value><![CDATA[submit]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Name]]></Name>
+                                                            <Value><![CDATA[Continue]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>Button</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.EditField.amount</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:12:00.124</StartTime>
+                                    <Duration>1</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.EditField</Type>
+                                                        <Name><![CDATA[amount]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>EditField</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>amount.setValue</Name>
+                                        <Description>Arguments: &amp;quot;25&amp;quot;</Description>
+                                        <StartTime>2015-10-06 21:11:59.020</StartTime>
+                                        <Duration>2</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.EditField</Type>
+                                                            <Name><![CDATA[amount]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>setValue</Operation>
+                                                    <OperationData><![CDATA[Arguments: "25"]]></OperationData>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[Type]]></Name>
+                                                            <Value><![CDATA[text]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[INPUT]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Name]]></Name>
+                                                            <Value><![CDATA[amount]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>EditField</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.ListBox.account</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:12:00.230</StartTime>
+                                    <Duration>1</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.ListBox</Type>
+                                                        <Name><![CDATA[account]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>ListBox</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>account.select</Name>
+                                        <Description>Arguments: 2</Description>
+                                        <StartTime>2015-10-06 21:12:00.129</StartTime>
+                                        <Duration>1</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.ListBox</Type>
+                                                            <Name><![CDATA[account]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>select</Operation>
+                                                    <OperationData><![CDATA[Arguments: 2]]></OperationData>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[SELECT]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Name]]></Name>
+                                                            <Value><![CDATA[account]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>ListBox</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.Button.Continue</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:12:00.320</StartTime>
+                                    <Duration>2</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Button</Type>
+                                                        <Name><![CDATA[Continue]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>Button</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>Continue.click</Name>
+                                        <Description/>
+                                        <StartTime>2015-10-06 21:12:00.230</StartTime>
+                                        <Duration>1</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Button</Type>
+                                                            <Name><![CDATA[Continue]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>click</Operation>
+                                                    <OperationData/>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[INPUT]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ButtonType]]></Name>
+                                                            <Value><![CDATA[submit]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Name]]></Name>
+                                                            <Value><![CDATA[Continue]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>Button</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.Button.Create account</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:12:01.432</StartTime>
+                                    <Duration>0</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Button</Type>
+                                                        <Name><![CDATA[Create account]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>Button</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>Create account.click</Name>
+                                        <Description/>
+                                        <StartTime>2015-10-06 21:12:00.321</StartTime>
+                                        <Duration>2</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Button</Type>
+                                                            <Name><![CDATA[Create account]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>click</Operation>
+                                                    <OperationData/>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[INPUT]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[ButtonType]]></Name>
+                                                            <Value><![CDATA[submit]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[Name]]></Name>
+                                                            <Value><![CDATA[Create account]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>Button</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                </ReportNode>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>DLogout</Name>
+                        <Description/>
+                        <StartTime>2015-10-06 21:12:01.432</StartTime>
+                        <Duration>3</Duration>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Web.Browser.Advantage Online Banking</Name>
+                            <Description/>
+                            <StartTime>2015-10-06 21:12:02.547</StartTime>
+                            <Duration>2</Duration>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[Advantage Online Banking]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IconKey>Browser</IconKey>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Context">
+                            <Data>
+                                <Name>Web.Page.Advantage Online Banking</Name>
+                                <Description/>
+                                <StartTime>2015-10-06 21:12:02.547</StartTime>
+                                <Duration>2</Duration>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Page</Type>
+                                                    <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation/>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IconKey>Page</IconKey>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                            <ReportNode type="Context">
+                                <Data>
+                                    <Name>Web.Link.Logout</Name>
+                                    <Description/>
+                                    <StartTime>2015-10-06 21:12:02.547</StartTime>
+                                    <Duration>2</Duration>
+                                    <Result>Passed</Result>
+                                    <Links/>
+                                    <Extension>
+                                        <Any>
+                                            <TestObject>
+                                                <Path>
+                                                    <Object>
+                                                        <Type>Web.Browser</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Page</Type>
+                                                        <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                    </Object>
+                                                    <Object>
+                                                        <Type>Web.Link</Type>
+                                                        <Name><![CDATA[Logout]]></Name>
+                                                    </Object>
+                                                </Path>
+                                                <Operation/>
+                                                <OperationData/>
+                                                <Properties/>
+                                            </TestObject>
+                                            <IconKey>Link</IconKey>
+                                            <HideContextInfo>true</HideContextInfo>
+                                        </Any>
+                                    </Extension>
+                                </Data>
+                                <ReportNode type="Step">
+                                    <Data>
+                                        <Name>Logout.click</Name>
+                                        <Description/>
+                                        <StartTime>2015-10-06 21:12:01.433</StartTime>
+                                        <Duration>2</Duration>
+                                        <Result>Passed</Result>
+                                        <Links/>
+                                        <Extension>
+                                            <Any>
+                                                <TestObject>
+                                                    <Path>
+                                                        <Object>
+                                                            <Type>Web.Browser</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Page</Type>
+                                                            <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                        </Object>
+                                                        <Object>
+                                                            <Type>Web.Link</Type>
+                                                            <Name><![CDATA[Logout]]></Name>
+                                                        </Object>
+                                                    </Path>
+                                                    <Operation>click</Operation>
+                                                    <OperationData/>
+                                                    <Properties>
+                                                        <Property>
+                                                            <Name><![CDATA[TagName]]></Name>
+                                                            <Value><![CDATA[A]]></Value>
+                                                        </Property>
+                                                        <Property>
+                                                            <Name><![CDATA[InnerText]]></Name>
+                                                            <Value><![CDATA[Logout]]></Value>
+                                                        </Property>
+                                                    </Properties>
+                                                </TestObject>
+                                                <IconKey>Link</IconKey>
+                                                <HideContextInfo>true</HideContextInfo>
+                                            </Any>
+                                        </Extension>
+                                    </Data>
+                                </ReportNode>
+                            </ReportNode>
+                        </ReportNode>
+                    </ReportNode>
+                    <ReportNode type="CustomStep">
+                        <Data>
+                            <Name>Successful logout</Name>
+                            <Description>Verify that the user was able to log out</Description>
+                            <StartTime>2015-10-06 21:12:03.625</StartTime>
+                            <Duration>0</Duration>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Extension>
+                                <Any>
+                                    <IconKey>CustomStep</IconKey>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>ECloseBrowser</Name>
+                        <Description/>
+                        <StartTime>2015-10-06 21:12:03.626</StartTime>
+                        <Duration>1</Duration>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Context">
+                        <Data>
+                            <Name>Web.Browser.Advantage Online Banking</Name>
+                            <Description/>
+                            <StartTime>2015-10-06 21:12:04.151</StartTime>
+                            <Duration>0</Duration>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[Advantage Online Banking]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation/>
+                                        <OperationData/>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IconKey>Browser</IconKey>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="Step">
+                            <Data>
+                                <Name>Advantage Online Banking.close</Name>
+                                <Description/>
+                                <StartTime>2015-10-06 21:12:03.626</StartTime>
+                                <Duration>1</Duration>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Extension>
+                                    <Any>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[Advantage Online Banking]]></Name>
+                                                </Object>
+                                            </Path>
+                                            <Operation>close</Operation>
+                                            <OperationData/>
+                                            <Properties/>
+                                        </TestObject>
+                                        <IconKey>Browser</IconKey>
+                                        <HideContextInfo>true</HideContextInfo>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                        </ReportNode>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
